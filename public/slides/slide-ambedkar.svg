@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="ambSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07152f"/>
+      <stop offset="35%" stop-color="#0f2b5c"/>
+      <stop offset="70%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0a1931"/>
+    </linearGradient>
+
+    <linearGradient id="ambGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="30%" stop-color="#fbbf24"/>
+      <stop offset="70%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <linearGradient id="ambAura" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="coatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1600" height="700" fill="url(#ambSky)"/>
+
+  <!-- Atmospheric Light Rays & Starlight -->
+  <g opacity="0.35">
+    <circle cx="1200" cy="350" r="320" fill="url(#ambAura)"/>
+    <circle cx="1200" cy="350" r="450" fill="url(#ambAura)"/>
+    <line x1="1200" y1="0" x2="1200" y2="700" stroke="#93c5fd" stroke-width="1" opacity="0.2" stroke-dasharray="8 8"/>
+    <line x1="850" y1="350" x2="1550" y2="350" stroke="#93c5fd" stroke-width="1" opacity="0.2" stroke-dasharray="8 8"/>
+  </g>
+
+  <!-- Distant Architectural Silhouette: Indian Parliament & Pillars -->
+  <g opacity="0.18" fill="#93c5fd">
+    <!-- Parliament Colonnade Silhouette on Horizon -->
+    <rect x="0" y="560" width="1600" height="140" fill="#081426"/>
+    <path d="M 50 560 L 50 510 L 80 500 L 110 510 L 110 560 Z"/>
+    <path d="M 130 560 L 130 515 L 150 515 L 150 560 Z"/>
+    <path d="M 170 560 L 170 515 L 190 515 L 190 560 Z"/>
+    <path d="M 210 560 L 210 515 L 230 515 L 230 560 Z"/>
+    <path d="M 250 560 L 250 515 L 270 515 L 270 560 Z"/>
+    <path d="M 290 560 L 290 500 L 330 480 L 370 500 L 370 560 Z"/>
+    <!-- Dome of Parliament -->
+    <path d="M 310 480 A 60 40 0 0 1 430 480 L 430 560 L 310 560 Z"/>
+    <!-- Classical Colonnade right side -->
+    <rect x="700" y="530" width="12" height="30"/>
+    <rect x="730" y="530" width="12" height="30"/>
+    <rect x="760" y="530" width="12" height="30"/>
+    <rect x="790" y="530" width="12" height="30"/>
+  </g>
+
+  <!-- Left Side Atmospheric Decorative Motif -->
+  <g opacity="0.25">
+    <circle cx="150" cy="180" r="160" fill="none" stroke="url(#ambGold)" stroke-width="1.5" stroke-dasharray="6 6"/>
+    <circle cx="150" cy="180" r="140" fill="none" stroke="#60a5fa" stroke-width="1"/>
+  </g>
+
+  <!-- RIGHT SCENIC DISPLAY: Dr. B. R. Ambedkar Tribute Medallion -->
+  <g transform="translate(1200, 350)">
+    <!-- Outer Radiant Halo -->
+    <circle cx="0" cy="0" r="260" fill="none" stroke="url(#ambGold)" stroke-width="2" stroke-dasharray="12 8" opacity="0.6"/>
+    <circle cx="0" cy="0" r="240" fill="#0f2b5c" stroke="url(#ambGold)" stroke-width="3.5" filter="url(#glow)"/>
+
+    <!-- Ashoka Chakra Spokes in Halo -->
+    <g opacity="0.45">
+      <circle cx="0" cy="0" r="215" fill="none" stroke="#93c5fd" stroke-width="2"/>
+      <circle cx="0" cy="0" r="28" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+      <!-- 24 Spokes -->
+      <g stroke="#93c5fd" stroke-width="1.5">
+        <line x1="0" y1="-215" x2="0" y2="215"/>
+        <line x1="-215" y1="0" x2="215" y2="0"/>
+        <line x1="-152" y1="-152" x2="152" y2="152"/>
+        <line x1="-152" y1="152" x2="152" y2="-152"/>
+        <line x1="-82" y1="-198" x2="82" y2="198"/>
+        <line x1="-198" y1="-82" x2="198" y2="82"/>
+        <line x1="-198" y1="82" x2="198" y2="-82"/>
+        <line x1="-82" y1="198" x2="82" y2="-198"/>
+        <line x1="-186" y1="-107" x2="186" y2="107"/>
+        <line x1="-107" y1="-186" x2="107" y2="186"/>
+        <line x1="-107" y1="186" x2="107" y2="-186"/>
+        <line x1="-186" y1="107" x2="186" y2="-107"/>
+      </g>
+    </g>
+
+    <!-- Inner Portrait Backdrop -->
+    <circle cx="0" cy="0" r="200" fill="#0a1931"/>
+
+    <!-- Dr. B. R. Ambedkar Silhouette & Dignified Artwork -->
+    <!-- Coat & Shoulders -->
+    <path d="M -130 200 C -110 90, -60 50, -20 45 L 0 100 L 20 45 C 60 50, 110 90, 130 200 Z" fill="url(#coatGrad)"/>
+    <!-- White Collar & Red Tie -->
+    <polygon points="-20,45 20,45 12,120 -12,120" fill="#ffffff"/>
+    <polygon points="-6,55 6,55 4,115 -4,115" fill="#dc2626"/>
+    <!-- Neck -->
+    <rect x="-18" y="-10" width="36" height="58" fill="#fcd34d" rx="6"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-65" rx="55" ry="68" fill="#fcd34d"/>
+    <!-- Dignified Hair Silhouette -->
+    <path d="M -54 -75 C -50 -120, -10 -130, 0 -130 C 10 -130, 50 -120, 54 -75 C 45 -110, -45 -110, -54 -75 Z" fill="#1e293b"/>
+    <!-- Classic Spectacles -->
+    <rect x="-42" y="-72" width="34" height="24" rx="6" fill="none" stroke="#d97706" stroke-width="3.5"/>
+    <rect x="8" y="-72" width="34" height="24" rx="6" fill="none" stroke="#d97706" stroke-width="3.5"/>
+    <line x1="-8" y1="-60" x2="8" y2="-60" stroke="#d97706" stroke-width="3"/>
+    <!-- Fountain Pen in Pocket -->
+    <rect x="55" y="110" width="6" height="24" rx="2" fill="url(#ambGold)"/>
+    <!-- Constitution Book Symbol in Front -->
+    <g transform="translate(0, 150)">
+      <rect x="-85" y="-15" width="170" height="42" rx="6" fill="#1e3a8a" stroke="url(#ambGold)" stroke-width="2"/>
+      <text x="0" y="11" text-anchor="middle" fill="url(#ambGold)" font-size="13" font-family="serif" font-weight="bold" letter-spacing="1">
+        CONSTITUTION OF INDIA
+      </text>
+    </g>
+
+    <!-- Golden Laurel Branches at Base of Medallion -->
+    <g stroke="url(#ambGold)" stroke-width="2" fill="none" opacity="0.85">
+      <path d="M -150 170 C -100 240, 100 240, 150 170"/>
+      <circle cx="-130" cy="190" r="6" fill="#fbbf24"/>
+      <circle cx="-90" cy="220" r="6" fill="#fbbf24"/>
+      <circle cx="-45" cy="235" r="6" fill="#fbbf24"/>
+      <circle cx="0" cy="240" r="7" fill="#fbbf24"/>
+      <circle cx="45" cy="235" r="6" fill="#fbbf24"/>
+      <circle cx="90" cy="220" r="6" fill="#fbbf24"/>
+      <circle cx="130" cy="190" r="6" fill="#fbbf24"/>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="694" width="1600" height="6" fill="url(#ambGold)"/>
+</svg>

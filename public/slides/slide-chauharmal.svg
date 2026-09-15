@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="chauhSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08142c"/>
+      <stop offset="30%" stop-color="#122550"/>
+      <stop offset="70%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+
+    <!-- Warm Amber-Gold Dawn Glow -->
+    <radialGradient id="chauhAura" cx="75%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#d97706" stop-opacity="0.2"/>
+      <stop offset="80%" stop-color="#1e3a8a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Rich Golden Accents -->
+    <linearGradient id="chauhGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="35%" stop-color="#fbbf24"/>
+      <stop offset="75%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <!-- Steed & Warrior Gradient -->
+    <linearGradient id="steedGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+
+    <filter id="chauhGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1600" height="700" fill="url(#chauhSky)"/>
+  <rect width="1600" height="700" fill="url(#chauhAura)"/>
+
+  <!-- Distant Mokama Taal Scenic Landscape & Fortress Silhouette -->
+  <g opacity="0.22" fill="#60a5fa">
+    <!-- Gentle rolling terrain of the historic Taal region -->
+    <path d="M 0 620 Q 350 580, 750 610 T 1600 590 L 1600 700 L 0 700 Z" fill="#071224"/>
+    <path d="M 0 650 Q 400 630, 900 640 T 1600 630 L 1600 700 L 0 700 Z" fill="#040b17"/>
+
+    <!-- Historic Temple Shikhara & Memorial Shrine Silhouettes on Horizon -->
+    <path d="M 150 610 L 170 540 L 190 520 L 210 540 L 230 610 Z"/>
+    <rect x="186" y="500" width="8" height="20"/>
+    <path d="M 190 490 L 205 498 L 190 506 Z" fill="#fbbf24"/>
+
+    <path d="M 400 620 L 415 570 L 430 550 L 445 570 L 460 620 Z"/>
+
+    <!-- Fortress Bastions on the horizon -->
+    <rect x="700" y="580" width="80" height="30"/>
+    <polygon points="700,580 720,565 740,580"/>
+    <polygon points="740,580 760,565 780,580"/>
+  </g>
+
+  <!-- Traditional Decorative Motif on Left -->
+  <g opacity="0.2">
+    <circle cx="160" cy="180" r="140" fill="none" stroke="url(#chauhGold)" stroke-width="2" stroke-dasharray="8 6"/>
+    <!-- Lotus petal ring -->
+    <circle cx="160" cy="180" r="110" fill="none" stroke="#93c5fd" stroke-width="1.5"/>
+  </g>
+
+  <!-- RIGHT SCENIC DISPLAY: Heroic Folk Heritage & Valor Medallion -->
+  <g transform="translate(1200, 350)">
+    <!-- Outer Radiant Valor Aura -->
+    <circle cx="0" cy="0" r="260" fill="none" stroke="url(#chauhGold)" stroke-width="2.5" stroke-dasharray="10 8" opacity="0.6"/>
+    <circle cx="0" cy="0" r="240" fill="#0f2756" stroke="url(#chauhGold)" stroke-width="3.5" filter="url(#chauhGlow)"/>
+
+    <!-- Traditional Sun-burst of Courage (सूर्य चक्र) -->
+    <g opacity="0.35" stroke="url(#chauhGold)" stroke-width="2">
+      <line x1="0" y1="-230" x2="0" y2="230"/>
+      <line x1="-230" y1="0" x2="230" y2="0"/>
+      <line x1="-162" y1="-162" x2="162" y2="162"/>
+      <line x1="-162" y1="162" x2="162" y2="-162"/>
+      <circle cx="0" cy="0" r="200" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+    </g>
+
+    <!-- Inner Shield & Valor Display -->
+    <circle cx="0" cy="0" r="195" fill="#0a1935"/>
+
+    <!-- Majestic Warrior on Steed / Sacred Shield Symbol of Chauharmal -->
+    <!-- Royal Shield (ढाल) -->
+    <circle cx="0" cy="10" r="115" fill="#1e3a8a" stroke="url(#chauhGold)" stroke-width="6"/>
+    <circle cx="0" cy="10" r="95" fill="#0f2b5c" stroke="#fef08a" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+    <!-- Radiant Sun Crest in Shield Center -->
+    <circle cx="0" cy="10" r="38" fill="url(#chauhGold)"/>
+    <g stroke="url(#chauhGold)" stroke-width="3">
+      <line x1="0" y1="-45" x2="0" y2="65"/>
+      <line x1="-55" y1="10" x2="55" y2="10"/>
+      <line x1="-38" y1="-28" x2="38" y2="48"/>
+      <line x1="-38" y1="48" x2="38" y2="-28"/>
+    </g>
+    <!-- Sun Face Feature / Golden Boss -->
+    <circle cx="0" cy="10" r="24" fill="#d97706" stroke="#fef08a" stroke-width="2"/>
+    <circle cx="0" cy="10" r="10" fill="#fef08a"/>
+
+    <!-- Four Bosses on the Shield rim -->
+    <circle cx="-65" cy="-55" r="12" fill="url(#chauhGold)" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="65" cy="-55" r="12" fill="url(#chauhGold)" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="-65" cy="75" r="12" fill="url(#chauhGold)" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="65" cy="75" r="12" fill="url(#chauhGold)" stroke="#ffffff" stroke-width="1.5"/>
+
+    <!-- Crossed Valorous Talwars (तलवारें - Swords of Justice & Defense) behind shield -->
+    <g stroke="url(#chauhGold)" stroke-width="4" stroke-linecap="round">
+      <!-- Sword 1 -->
+      <line x1="-140" y1="-140" x2="130" y2="150"/>
+      <path d="M 130 150 L 150 140 L 140 165 Z" fill="url(#chauhGold)"/>
+      <line x1="-140" y1="-140" x2="-160" y2="-120"/>
+      <!-- Sword 2 -->
+      <line x1="140" y1="-140" x2="-130" y2="150"/>
+      <path d="M -130 150 L -150 140 L -140 165 Z" fill="url(#chauhGold)"/>
+      <line x1="140" y1="-140" x2="160" y2="-120"/>
+    </g>
+
+    <!-- Noble Steed (अश्व / White Stallion) Silhouette on top -->
+    <g transform="translate(0, -95) scale(0.65)">
+      <!-- Horse Head & Mane in Dignified Silhouette -->
+      <path d="M -50 40 C -40 10, -20 -20, 0 -35 C 10 -40, 25 -30, 20 -15 C 30 -20, 45 -10, 40 10 C 35 30, 15 50, -10 60 Z" fill="url(#steedGrad)" stroke="url(#chauhGold)" stroke-width="2.5"/>
+      <!-- Royal Bridle & Ornament -->
+      <path d="M -10 -25 L 15 15" stroke="#f59e0b" stroke-width="3"/>
+      <circle cx="15" cy="15" r="5" fill="#f59e0b"/>
+    </g>
+
+    <!-- Respectful Heritage Banner at Base -->
+    <g transform="translate(0, 160)">
+      <rect x="-105" y="-14" width="210" height="38" rx="6" fill="#1e3a8a" stroke="url(#chauhGold)" stroke-width="2"/>
+      <text x="0" y="11" text-anchor="middle" fill="url(#chauhGold)" font-size="13" font-family="serif" font-weight="bold" letter-spacing="1">
+        वीर शिरोमणि बाबा चौहरमल
+      </text>
+    </g>
+
+    <!-- Traditional Laurel & Lotus Petals -->
+    <g stroke="url(#chauhGold)" stroke-width="2" fill="none" opacity="0.85">
+      <path d="M -150 170 C -100 240, 100 240, 150 170"/>
+      <circle cx="-120" cy="205" r="5" fill="#fbbf24"/>
+      <circle cx="-60" cy="235" r="6" fill="#fbbf24"/>
+      <circle cx="0" cy="240" r="7" fill="#fbbf24"/>
+      <circle cx="60" cy="235" r="6" fill="#fbbf24"/>
+      <circle cx="120" cy="205" r="5" fill="#fbbf24"/>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="694" width="1600" height="6" fill="url(#chauhGold)"/>
+</svg>

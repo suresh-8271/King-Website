@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="chiragSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081734"/>
+      <stop offset="30%" stop-color="#0f2b5c"/>
+      <stop offset="70%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="chiragGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="30%" stop-color="#fbbf24"/>
+      <stop offset="70%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <!-- Tricolor Ribbon Gradient -->
+    <linearGradient id="chiragTiranga" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9933"/>
+      <stop offset="33%" stop-color="#ff9933"/>
+      <stop offset="33.1%" stop-color="#ffffff"/>
+      <stop offset="66%" stop-color="#ffffff"/>
+      <stop offset="66.1%" stop-color="#138808"/>
+      <stop offset="100%" stop-color="#138808"/>
+    </linearGradient>
+
+    <!-- Youth Energy Cyan/Blue Glow -->
+    <radialGradient id="youthAura" cx="75%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="45%" stop-color="#1d4ed8" stop-opacity="0.2"/>
+      <stop offset="85%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="chiragGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1600" height="700" fill="url(#chiragSky)"/>
+  <rect width="1600" height="700" fill="url(#youthAura)"/>
+
+  <!-- Distant Modern Horizon: Development, Tech, Education & Parliament -->
+  <g opacity="0.2" fill="#93c5fd">
+    <rect x="0" y="580" width="1600" height="120" fill="#071224"/>
+    <!-- Modern cityscape / University towers of knowledge & industry -->
+    <rect x="120" y="520" width="45" height="60"/>
+    <rect x="180" y="490" width="55" height="90"/>
+    <polygon points="180,490 207,460 235,490"/>
+    <rect x="250" y="530" width="40" height="50"/>
+
+    <!-- Bridges & Roadways of connectivity -->
+    <path d="M 320 580 Q 420 540, 520 580" stroke="#60a5fa" stroke-width="3" fill="none"/>
+    <line x1="370" y1="560" x2="370" y2="580" stroke="#60a5fa" stroke-width="1.5"/>
+    <line x1="420" y1="550" x2="420" y2="580" stroke="#60a5fa" stroke-width="1.5"/>
+    <line x1="470" y1="560" x2="470" y2="580" stroke="#60a5fa" stroke-width="1.5"/>
+
+    <!-- Rising Sun of Youth Empowerment -->
+    <circle cx="700" cy="580" r="80" fill="none" stroke="#f59e0b" stroke-width="2"/>
+    <line x1="700" y1="480" x2="700" y2="500" stroke="#f59e0b" stroke-width="2"/>
+    <line x1="630" y1="510" x2="645" y2="525" stroke="#f59e0b" stroke-width="2"/>
+    <line x1="770" y1="510" x2="755" y2="525" stroke="#f59e0b" stroke-width="2"/>
+  </g>
+
+  <!-- Left Side Subtle Youth Leadership Compass/Stars -->
+  <g opacity="0.22">
+    <circle cx="150" cy="180" r="140" fill="none" stroke="url(#chiragGold)" stroke-width="1.5" stroke-dasharray="8 6"/>
+    <!-- Soaring wings/arrows motif -->
+    <path d="M 120 180 L 150 140 L 180 180 L 150 170 Z" fill="url(#chiragGold)"/>
+    <circle cx="150" cy="180" r="110" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  </g>
+
+  <!-- RIGHT SCENIC DISPLAY: Youth Leadership Tribute Medallion -->
+  <g transform="translate(1200, 350)">
+    <!-- Outer Radiant Halo -->
+    <circle cx="0" cy="0" r="260" fill="none" stroke="url(#chiragGold)" stroke-width="2" stroke-dasharray="12 8" opacity="0.6"/>
+    <circle cx="0" cy="0" r="240" fill="#0f2b5c" stroke="url(#chiragGold)" stroke-width="3.5" filter="url(#chiragGlow)"/>
+
+    <!-- Tricolor Ring representing National Vision -->
+    <circle cx="0" cy="0" r="225" fill="none" stroke="url(#chiragTiranga)" stroke-width="4" opacity="0.85"/>
+    <circle cx="0" cy="0" r="215" fill="none" stroke="url(#chiragGold)" stroke-width="1.5"/>
+
+    <!-- Inner Portrait Backdrop -->
+    <circle cx="0" cy="0" r="205" fill="#07193b"/>
+
+    <!-- Modern Dignified Youth Leader Silhouette -->
+    <!-- Crisp White Modern Kurta & Bandhgala/Sadri -->
+    <path d="M -125 205 C -105 105, -60 70, -20 65 L 0 115 L 20 65 C 60 70, 105 105, 125 205 Z" fill="#ffffff"/>
+    <!-- Modern Dark Navy Blue Waistcoat (Sadri) -->
+    <path d="M -90 205 C -75 130, -45 100, -18 95 L -18 205 Z" fill="#1e3a8a"/>
+    <path d="M 90 205 C 75 130, 45 100, 18 95 L 18 205 Z" fill="#1e3a8a"/>
+
+    <!-- Tricolor Lapel Pin on Left Lapel -->
+    <circle cx="-35" cy="125" r="7" fill="url(#chiragTiranga)"/>
+    <circle cx="-35" cy="125" r="2" fill="#1e3a8a"/>
+
+    <!-- Neck & Head -->
+    <rect x="-18" y="10" width="36" height="60" fill="#fcd34d" rx="6"/>
+    <ellipse cx="0" cy="-52" rx="52" ry="65" fill="#fcd34d"/>
+
+    <!-- Modern Styled Hair & Well-groomed Beard/Stubble of Young Leader -->
+    <!-- Hair Volume -->
+    <path d="M -50 -60 C -48 -118, -15 -128, 0 -128 C 15 -128, 48 -118, 50 -60 C 40 -110, -40 -110, -50 -60 Z" fill="#0f172a"/>
+    <!-- Neat modern sideburns and jawline beard -->
+    <path d="M -48 -50 C -48 -10, -35 15, 0 15 C 35 15, 48 -10, 48 -50 C 42 -10, 20 5, 0 5 C -20 5, -42 -10, -48 -50 Z" fill="#1e293b" opacity="0.9"/>
+    <!-- Neat Moustache -->
+    <path d="M -24 -24 Q 0 -32, 24 -24 Q 0 -16, -24 -24 Z" fill="#0f172a"/>
+
+    <!-- Youth Leadership Symbol / Rising Star on Chest -->
+    <g transform="translate(0, 75)">
+      <!-- Golden Star of Inspiration -->
+      <polygon points="0,-16 4,-4 16,-4 7,4 10,16 0,8 -10,16 -7,4 -16,-4 -4,-4" fill="url(#chiragGold)"/>
+    </g>
+
+    <!-- Respectful Title Plaque at Base -->
+    <g transform="translate(0, 160)">
+      <rect x="-115" y="-14" width="230" height="38" rx="6" fill="#1e3a8a" stroke="url(#chiragGold)" stroke-width="2"/>
+      <text x="0" y="11" text-anchor="middle" fill="url(#chiragGold)" font-size="13" font-family="serif" font-weight="bold" letter-spacing="1">
+        युवा नेतृत्व • श्री चिराग पासवान
+      </text>
+    </g>
+
+    <!-- Golden Laurel Branches at Base of Medallion -->
+    <g stroke="url(#chiragGold)" stroke-width="2" fill="none" opacity="0.85">
+      <path d="M -150 170 C -100 240, 100 240, 150 170"/>
+      <circle cx="-130" cy="190" r="5" fill="#fbbf24"/>
+      <circle cx="-90" cy="220" r="6" fill="#fbbf24"/>
+      <circle cx="-45" cy="235" r="6" fill="#fbbf24"/>
+      <circle cx="0" cy="240" r="7" fill="#fbbf24"/>
+      <circle cx="45" cy="235" r="6" fill="#fbbf24"/>
+      <circle cx="90" cy="220" r="6" fill="#fbbf24"/>
+      <circle cx="130" cy="190" r="5" fill="#fbbf24"/>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="694" width="1600" height="6" fill="url(#chiragGold)"/>
+</svg>

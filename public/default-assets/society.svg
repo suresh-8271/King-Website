@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradSoc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="goldSoc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="treeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="600" rx="32" fill="url(#bgGradSoc)"/>
+  <circle cx="300" cy="300" r="275" fill="none" stroke="url(#goldSoc)" stroke-width="4" stroke-dasharray="8 6" opacity="0.6"/>
+
+  <!-- Radiant Light of Education & Progress -->
+  <circle cx="300" cy="220" r="140" fill="#3b82f6" opacity="0.15"/>
+  <circle cx="300" cy="220" r="115" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Hands Joined in Unity & Upliftment (दो जुड़े हुए हाथ / सहकार) -->
+  <g transform="translate(300, 360)">
+    <!-- Left Hand / Arm rising -->
+    <path d="M -160 120 C -130 50, -80 0, 0 -20 C -20 30, -50 80, -90 120 Z" fill="#f59e0b" opacity="0.85"/>
+    <!-- Right Hand / Arm rising -->
+    <path d="M 160 120 C 130 50, 80 0, 0 -20 C 20 30, 50 80, 90 120 Z" fill="#fbbf24" opacity="0.85"/>
+  </g>
+
+  <!-- Book of Knowledge & Education (खुली किताब) in Center -->
+  <g transform="translate(300, 260)">
+    <!-- Left Page -->
+    <path d="M -8 -15 C -45 -35, -100 -30, -125 -10 L -125 55 C -100 35, -45 40, -8 60 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Right Page -->
+    <path d="M 8 -15 C 45 -35, 100 -30, 125 -10 L 125 55 C 100 35, 45 40, 8 60 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Book Spine -->
+    <rect x="-8" y="-12" width="16" height="72" fill="#1e3a8a" rx="3"/>
+    <!-- Text Lines on Pages -->
+    <line x1="-105" y1="5" x2="-25" y2="-5" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-105" y1="20" x2="-25" y2="10" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-105" y1="35" x2="-45" y2="28" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+
+    <line x1="25" y1="-5" x2="105" y2="5" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="10" x2="105" y2="20" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="45" y1="28" x2="105" y2="35" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Tree of Growth, Youth & Social Empowerment sprouting above book -->
+  <g transform="translate(300, 160)">
+    <!-- Tree Trunk -->
+    <path d="M -8 75 L -4 10 L 4 10 L 8 75 Z" fill="#78350f"/>
+    <!-- Tree Foliage Circles -->
+    <circle cx="0" cy="-25" r="45" fill="url(#treeGrad)"/>
+    <circle cx="-35" cy="0" r="35" fill="url(#treeGrad)"/>
+    <circle cx="35" cy="0" r="35" fill="url(#treeGrad)"/>
+    <!-- Golden Seeds / Fruits of Development -->
+    <circle cx="0" cy="-25" r="7" fill="#fbbf24"/>
+    <circle cx="-25" cy="-8" r="6" fill="#fbbf24"/>
+    <circle cx="25" cy="-8" r="6" fill="#fbbf24"/>
+    <circle cx="-10" cy="10" r="5" fill="#fbbf24"/>
+    <circle cx="10" cy="10" r="5" fill="#fbbf24"/>
+  </g>
+
+  <!-- 4 Core Pillars Badges around central motif -->
+  <!-- Top Left: Education (शिक्षा) -->
+  <g transform="translate(140, 130)">
+    <circle cx="0" cy="0" r="28" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+    <text x="0" y="5" fill="#93c5fd" font-size="11" font-weight="bold" font-family="'Noto Sans Devanagari', sans-serif" text-anchor="middle">शिक्षा</text>
+  </g>
+  <!-- Top Right: Unity (एकता) -->
+  <g transform="translate(460, 130)">
+    <circle cx="0" cy="0" r="28" fill="#1e3a8a" stroke="#f59e0b" stroke-width="2"/>
+    <text x="0" y="5" fill="#fde047" font-size="11" font-weight="bold" font-family="'Noto Sans Devanagari', sans-serif" text-anchor="middle">एकता</text>
+  </g>
+  <!-- Mid Left: Self-Respect (सम्मान) -->
+  <g transform="translate(100, 310)">
+    <circle cx="0" cy="0" r="28" fill="#1e3a8a" stroke="#10b981" stroke-width="2"/>
+    <text x="0" y="5" fill="#6ee7b7" font-size="11" font-weight="bold" font-family="'Noto Sans Devanagari', sans-serif" text-anchor="middle">सम्मान</text>
+  </g>
+  <!-- Mid Right: Development (विकास) -->
+  <g transform="translate(500, 310)">
+    <circle cx="0" cy="0" r="28" fill="#1e3a8a" stroke="#ec4899" stroke-width="2"/>
+    <text x="0" y="5" fill="#f9a8d4" font-size="11" font-weight="bold" font-family="'Noto Sans Devanagari', sans-serif" text-anchor="middle">विकास</text>
+  </g>
+
+  <!-- Banner Ribbon at Bottom -->
+  <g transform="translate(0, 515)">
+    <rect x="40" y="0" width="520" height="60" rx="14" fill="#0f172a" stroke="url(#goldSoc)" stroke-width="2"/>
+    <text x="300" y="26" fill="#fbbf24" font-family="'Noto Sans Devanagari', 'Segoe UI', sans-serif" font-size="18" font-weight="900" text-anchor="middle">
+      हमारा समाज – एकता, शिक्षा, सम्मान और विकास
+    </text>
+    <text x="300" y="48" fill="#cbd5e1" font-family="'Segoe UI', 'Noto Sans Devanagari', sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+      सशक्त युवा • महिला स्वावलंबन • सामाजिक समरसता एवं समग्र उत्थान
+    </text>
+  </g>
+</svg>

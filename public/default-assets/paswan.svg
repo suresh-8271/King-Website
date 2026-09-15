@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradPaswan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="50%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="tricolorOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9933"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="goldPaswan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="kurtaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="waistcoatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="600" rx="32" fill="url(#bgGradPaswan)"/>
+  <circle cx="300" cy="300" r="275" fill="none" stroke="url(#goldPaswan)" stroke-width="4" stroke-dasharray="10 6" opacity="0.7"/>
+
+  <!-- Halo of Public Service -->
+  <circle cx="300" cy="235" r="135" fill="#10b981" opacity="0.2"/>
+  <circle cx="300" cy="235" r="115" fill="none" stroke="url(#goldPaswan)" stroke-width="3"/>
+
+  <!-- Tricolor Sashes in the background -->
+  <g opacity="0.25">
+    <path d="M 100 80 Q 300 40 500 80 L 500 110 Q 300 70 100 110 Z" fill="#ff9933"/>
+    <path d="M 100 110 Q 300 70 500 110 L 500 140 Q 300 100 100 140 Z" fill="#ffffff"/>
+    <path d="M 100 140 Q 300 100 500 140 L 500 170 Q 300 130 100 170 Z" fill="#138808"/>
+  </g>
+
+  <!-- Parliament / Democratic Symbol behind -->
+  <g transform="translate(300, 150) scale(0.6)" opacity="0.3" stroke="#fef08a" stroke-width="2" fill="none">
+    <path d="M -160 0 L 160 0 M -120 -20 L 120 -20 M 0 -70 L 0 -20"/>
+    <!-- Dome -->
+    <path d="M -60 -20 C -60 -65, 60 -65, 60 -20"/>
+  </g>
+
+  <!-- Dignified Portrait of Shri Ram Vilas Paswan -->
+  <!-- Shoulders / Kurta & Sadri (Waistcoat) -->
+  <path d="M 120 520 C 140 400, 200 365, 250 360 L 275 425 L 325 425 L 350 360 C 400 365, 460 400, 480 520 Z" fill="url(#kurtaGrad)"/>
+  
+  <!-- Navy Blue Nehru Jacket / Sadri -->
+  <path d="M 140 520 C 155 420, 210 380, 250 375 L 255 520 Z" fill="url(#waistcoatGrad)"/>
+  <path d="M 460 520 C 445 420, 390 380, 350 375 L 345 520 Z" fill="url(#waistcoatGrad)"/>
+  <line x1="250" y1="375" x2="255" y2="520" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="350" y1="375" x2="345" y2="520" stroke="#f59e0b" stroke-width="2"/>
+
+  <!-- Neck & White Mandarin Collar -->
+  <rect x="278" y="295" width="44" height="65" fill="#fcd34d" rx="8"/>
+  <path d="M 270 345 C 285 358, 315 358, 330 345 L 325 365 C 310 375, 290 375, 275 365 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Head / Face -->
+  <ellipse cx="300" cy="235" rx="55" ry="68" fill="#fcd34d"/>
+
+  <!-- Hair Style (Classic parted dark hair) -->
+  <path d="M 245 220 C 245 155, 270 150, 300 150 C 330 150, 355 155, 355 220 C 350 175, 325 160, 300 160 C 275 160, 250 175, 245 220 Z" fill="#1e293b"/>
+  <path d="M 245 220 C 248 245, 252 255, 254 260 L 250 220 Z" fill="#1e293b"/>
+  <path d="M 355 220 C 352 245, 348 255, 346 260 L 350 220 Z" fill="#1e293b"/>
+
+  <!-- Facial Features: Warm, Gentle, Dignified Smile & Trimmed Moustache -->
+  <!-- Eyebrows -->
+  <path d="M 268 208 Q 282 204 294 208" fill="none" stroke="#451a03" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 306 208 Q 318 204 332 208" fill="none" stroke="#451a03" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <path d="M 272 216 Q 282 212 292 216" fill="none" stroke="#1c1917" stroke-width="2.5"/>
+  <path d="M 308 216 Q 318 212 328 216" fill="none" stroke="#1c1917" stroke-width="2.5"/>
+  <circle cx="282" cy="216" r="2.5" fill="#1c1917"/>
+  <circle cx="318" cy="216" r="2.5" fill="#1c1917"/>
+  <!-- Glasses Frame (Characteristic stylish spectacles) -->
+  <rect x="264" y="210" width="30" height="18" rx="5" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="306" y="210" width="30" height="18" rx="5" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="294" y1="218" x2="306" y2="218" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Nose -->
+  <path d="M 298 222 L 297 245 L 303 245" fill="none" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Iconic Trimmed Moustache -->
+  <path d="M 284 258 Q 300 252 316 258 Q 300 264 284 258 Z" fill="#1e293b"/>
+
+  <!-- Warm Smile -->
+  <path d="M 288 270 Q 300 278 312 270" fill="none" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Padma Bhushan Ribbon Badge on Jacket -->
+  <g transform="translate(210, 420)">
+    <circle cx="15" cy="15" r="14" fill="#d97706" stroke="#fef08a" stroke-width="2"/>
+    <polygon points="15,5 18,12 25,12 19,16 22,23 15,19 8,23 11,16 5,12 12,12" fill="#ffffff"/>
+  </g>
+
+  <!-- Banner Ribbon at Bottom -->
+  <g transform="translate(0, 515)">
+    <rect x="40" y="0" width="520" height="60" rx="14" fill="#022c22" stroke="url(#goldPaswan)" stroke-width="2"/>
+    <text x="300" y="26" fill="#fbbf24" font-family="'Noto Sans Devanagari', 'Segoe UI', sans-serif" font-size="18" font-weight="900" text-anchor="middle">
+      श्री रामविलास पासवान
+    </text>
+    <text x="300" y="48" fill="#a7f3d0" font-family="'Segoe UI', 'Noto Sans Devanagari', sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+      पूर्व केंद्रीय मंत्री • पद्म भूषण • जननायक एवं सामाजिक न्याय के शिल्पी
+    </text>
+  </g>
+</svg>

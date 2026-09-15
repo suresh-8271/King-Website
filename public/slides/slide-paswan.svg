@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="paswanSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06132b"/>
+      <stop offset="35%" stop-color="#0e2654"/>
+      <stop offset="70%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f2249"/>
+    </linearGradient>
+
+    <linearGradient id="paswanGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="30%" stop-color="#fbbf24"/>
+      <stop offset="70%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <!-- Indian Tricolor Ribbon Gradient -->
+    <linearGradient id="tiranga" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9933"/>
+      <stop offset="33%" stop-color="#ff9933"/>
+      <stop offset="33.1%" stop-color="#ffffff"/>
+      <stop offset="66%" stop-color="#ffffff"/>
+      <stop offset="66.1%" stop-color="#138808"/>
+      <stop offset="100%" stop-color="#138808"/>
+    </linearGradient>
+
+    <filter id="paswanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1600" height="700" fill="url(#paswanSky)"/>
+
+  <!-- Atmospheric Light Rays & Telecom/Rail Development Silhouettes -->
+  <g opacity="0.2" fill="#93c5fd">
+    <!-- Parliament House Dome and Pillars -->
+    <rect x="0" y="580" width="1600" height="120" fill="#061021"/>
+    <!-- Indian Railway Locomotive / Track Horizon (Minister for Railways milestone) -->
+    <line x1="0" y1="620" x2="1600" y2="620" stroke="#60a5fa" stroke-width="2"/>
+    <line x1="0" y1="626" x2="1600" y2="626" stroke="#60a5fa" stroke-width="2"/>
+    <line x1="0" y1="620" x2="1600" y2="620" stroke="#f59e0b" stroke-width="1" stroke-dasharray="16 16"/>
+
+    <!-- Telecommunications Tower (Telecom Revolution contribution) -->
+    <g transform="translate(180, 480)">
+      <line x1="0" y1="140" x2="0" y2="0" stroke="#60a5fa" stroke-width="2"/>
+      <line x1="-20" y1="140" x2="0" y2="20" stroke="#60a5fa" stroke-width="1.5"/>
+      <line x1="20" y1="140" x2="0" y2="20" stroke="#60a5fa" stroke-width="1.5"/>
+      <!-- Radiating waves -->
+      <circle cx="0" cy="15" r="15" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="0" cy="15" r="28" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6 6"/>
+      <circle cx="0" cy="15" r="42" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="8 8"/>
+    </g>
+
+    <!-- Parliament House Colonnade on the horizon -->
+    <rect x="350" y="530" width="180" height="50" rx="4"/>
+    <ellipse cx="440" cy="530" rx="35" ry="25"/>
+  </g>
+
+  <!-- Left Side Subtle Emblem of Public Service -->
+  <g opacity="0.22">
+    <circle cx="150" cy="180" r="140" fill="none" stroke="url(#paswanGold)" stroke-width="2" stroke-dasharray="10 8"/>
+    <circle cx="150" cy="180" r="110" fill="none" stroke="#93c5fd" stroke-width="1.5"/>
+  </g>
+
+  <!-- RIGHT SCENIC DISPLAY: Memorial Tribute Medallion -->
+  <g transform="translate(1200, 350)">
+    <!-- Outer Radiant Halo -->
+    <circle cx="0" cy="0" r="260" fill="none" stroke="url(#paswanGold)" stroke-width="2" stroke-dasharray="12 8" opacity="0.6"/>
+    <circle cx="0" cy="0" r="240" fill="#0f2b5c" stroke="url(#paswanGold)" stroke-width="3.5" filter="url(#paswanGlow)"/>
+
+    <!-- Decorative Tricolor Ring in Border -->
+    <circle cx="0" cy="0" r="225" fill="none" stroke="url(#tiranga)" stroke-width="4" opacity="0.8"/>
+    <circle cx="0" cy="0" r="215" fill="none" stroke="url(#paswanGold)" stroke-width="1.5"/>
+
+    <!-- Inner Portrait Backdrop -->
+    <circle cx="0" cy="0" r="205" fill="#081836"/>
+
+    <!-- Dignified Memorial Portrait Silhouette -->
+    <!-- Kurta & Traditional Sadri / Waistcoat -->
+    <path d="M -125 205 C -105 100, -60 65, -20 60 L 0 110 L 20 60 C 60 65, 105 100, 125 205 Z" fill="#ffffff"/>
+    <!-- Traditional Nehru Jacket / Sadri over Kurta -->
+    <path d="M -90 205 C -75 125, -45 95, -18 90 L -18 205 Z" fill="#1e3a8a"/>
+    <path d="M 90 205 C 75 125, 45 95, 18 90 L 18 205 Z" fill="#1e3a8a"/>
+    <!-- Golden Buttons on Sadri -->
+    <circle cx="0" cy="120" r="3.5" fill="url(#paswanGold)"/>
+    <circle cx="0" cy="145" r="3.5" fill="url(#paswanGold)"/>
+    <circle cx="0" cy="170" r="3.5" fill="url(#paswanGold)"/>
+
+    <!-- Neck & Head -->
+    <rect x="-18" y="5" width="36" height="60" fill="#fcd34d" rx="6"/>
+    <ellipse cx="0" cy="-55" rx="55" ry="68" fill="#fcd34d"/>
+
+    <!-- Dignified Grey-Black Hair & Moustache of Shri Ram Vilas Paswan -->
+    <path d="M -54 -65 C -50 -115, -15 -125, 0 -125 C 15 -125, 50 -115, 54 -65 C 45 -105, -45 -105, -54 -65 Z" fill="#334155"/>
+    <!-- Distinguished Moustache -->
+    <path d="M -28 -32 Q 0 -42, 28 -32 Q 0 -22, -28 -32 Z" fill="#334155"/>
+
+    <!-- Padma Bhushan Memorial Emblem (पद्म भूषण सम्मान) -->
+    <g transform="translate(0, 70)">
+      <!-- Padma (Lotus) Petals in Gold -->
+      <path d="M 0 -18 C -15 -10, -25 5, 0 16 C 25 5, 15 -10, 0 -18 Z" fill="url(#paswanGold)"/>
+      <circle cx="0" cy="0" r="6" fill="#1e3a8a"/>
+    </g>
+
+    <!-- Respectful Title Plaque at Base -->
+    <g transform="translate(0, 160)">
+      <rect x="-115" y="-14" width="230" height="38" rx="6" fill="#1e3a8a" stroke="url(#paswanGold)" stroke-width="2"/>
+      <text x="0" y="11" text-anchor="middle" fill="url(#paswanGold)" font-size="12" font-family="serif" font-weight="bold" letter-spacing="1">
+        पद्म भूषण • श्री रामविलास पासवान
+      </text>
+    </g>
+
+    <!-- Golden Garland & Laurel Branches -->
+    <g stroke="url(#paswanGold)" stroke-width="2" fill="none" opacity="0.85">
+      <path d="M -150 170 C -100 240, 100 240, 150 170"/>
+      <circle cx="-130" cy="190" r="5" fill="#fbbf24"/>
+      <circle cx="-90" cy="220" r="6" fill="#fbbf24"/>
+      <circle cx="-45" cy="235" r="6" fill="#fbbf24"/>
+      <circle cx="0" cy="240" r="7" fill="#fbbf24"/>
+      <circle cx="45" cy="235" r="6" fill="#fbbf24"/>
+      <circle cx="90" cy="220" r="6" fill="#fbbf24"/>
+      <circle cx="130" cy="190" r="5" fill="#fbbf24"/>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="694" width="1600" height="6" fill="url(#paswanGold)"/>
+</svg>
